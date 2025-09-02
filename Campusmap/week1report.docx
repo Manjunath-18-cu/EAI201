@@ -1,0 +1,41 @@
+Assignment WEEK-1 Report
+Project Understanding & Planning
+
+Introduction
+Navigating a university campus can be confusing, especially for first-year students, visitors, or even staff. Finding the right classroom, building, hostel, or café often takes more time than expected. To solve this problem, Bot Brain is designed as a smart campus navigation assistant for Chanakya University.
+This project combines a user-friendly chatbot interface with graph-based search algorithms and detailed campus data. The system helps users quickly locate buildings and find the shortest, most efficient paths across campus. By acting as a virtual guide, Bot Brain simplifies navigation and saves valuable time—making life easier for everyone on campus.
+
+Problem Statement
+Students, staff, and visitors at Chanakya University often face challenges such as:
+•	Difficulty locating departments, classrooms, and other facilities on campus.
+•	Delays in getting answers to common questions.
+•	Reliance on manual help for basic information, leading to inefficiency.
+These issues result in confusion, wasted time, and a less-than-ideal campus experience, particularly for newcomers.
+
+Objectives
+The key goals of this project are to:
+•	Develop a chatbot that can answer frequently asked questions related to the university.
+•	Integrate campus navigation features to guide users to various locations.
+•	Create a structured database with information about departments, staff, and facilities.
+•	Improve accessibility to information and reduce the need for manual support for routine queries.
+
+Scope
+The project will include:
+•	A chatbot that provides answers to FAQs, directions, and department-related queries.
+•	Navigation support limited to the boundaries of Chanakya University campus.
+•	Accessibility via both web and mobile platforms.
+•	Possibility of future enhancements such as sentiment analysis or multilingual support.
+
+Requirement Collection
+To build the system effectively, the following data will be collected:
+•	Detailed campus layout and maps.
+•	Information about university departments and a staff directory.
+•	A collection of frequently asked questions from various departments (admissions, academics, facilities, etc.).
+
+Tools & Technologies
+The project will use the following technologies:
+•	Programming Language: Python
+•	Chatbot Framework: Dialogflow
+•	Database: Graph-based data structures implemented in Python
+•	Navigation Support: Google Maps API
+
