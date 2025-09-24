@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Navigation System</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/static/background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+        
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .control-panel {
+            flex: 1;
+            min-width: 300px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .map-container {
+            flex: 2;
+            min-width: 300px;
+            height: 500px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        
+        select, button {
+            width: 100%;
+            padding: 12px;
+            border-radius: 5px;
+            border: none;
+            font-size: 1rem;
+        }
+        
+        select {
+            background-color: #333;
+            color: white;
+            border: 1px solid #555;
+        }
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            display: none;
+        }
+        
+        .result h3 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        
+        .path-list {
+            list-style-type: none;
+        }
+        
+        .path-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #444;
+        }
+        
+        .path-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .cost {
+            font-weight: bold;
+            color: #4CAF50;
+            margin-top: 10px;
+        }
+        
+        .error {
+            color: #f44336;
+            margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            
+            .map-container {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Campus Navigation System</h1>
+            <p class="subtitle">Find the shortest path between campus locations</p>
+        </header>
+        
+        <div class="content">
+            <div class="control-panel">
+                <form id="navigation-form">
+                    <div class="form-group">
+                        <label for="start">Starting Point:</label>
+                        <select id="start" name="start" required>
+                            <option value="">Select starting point</option>
+                            {% for location in locations %}
+                                <option value="{{ location }}">{{ location }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="goal">Destination:</label>
+                        <select id="goal" name="goal" required>
+                            <option value="">Select destination</option>
+                            {% for location in locations %}
+                                <option value="{{ location }}">{{ location }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="algorithm">Pathfinding Algorithm:</label>
+                        <select id="algorithm" name="algorithm" required>
+                            <option value="ucs">Uniform Cost Search (Shortest Path)</option>
+                            <option value="bfs">Breadth-First Search</option>
+                            <option value="dfs">Depth-First Search</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit">Find Path</button>
+                </form>
+                
+                <div class="result" id="result">
+                    <h3>Path Result</h3>
+                    <ul class="path-list" id="path-list"></ul>
+                    <div class="cost" id="cost"></div>
+                    <div class="error" id="error"></div>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([13.2225, 77.7555], 16);
+        
+        // Add MapTiler layer (using free OpenStreetMap as fallback)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        
+        // Marker and polyline variables
+        var markers = [];
+        var pathPolyline = null;
+        
+        // Location coordinates
+        var locationCoords = {
+            "Main Gate": [13.2200, 77.7539],
+            "Id Gate": [13.2214, 77.7549],
+            "Ac1": [13.2218, 77.7550],
+            "Lawn": [13.222775, 77.755576],
+            "Cafe": [13.22242, 77.755158],
+            "Lib": [13.221971, 77.75558],
+            "Ac2": [13.22336, 77.755963],
+            "Food Court": [13.224758, 77.75725],
+            "Hostel": [13.224195, 77.758613],
+            "Sports": [13.22887, 77.7572]
+        };
+        
+        // Add markers for all locations
+        function addLocationMarkers() {
+            // Clear existing markers
+            markers.forEach(marker => map.removeLayer(marker));
+            markers = [];
+            
+            // Add markers for each location
+            for (const [name, coords] of Object.entries(locationCoords)) {
+                var marker = L.marker(coords).addTo(map);
+                marker.bindPopup(`<b>${name}</b>`);
+                markers.push(marker);
+            }
+        }
+        
+        // Draw path on the map
+        function drawPath(pathCoordinates) {
+            // Remove existing path
+            if (pathPolyline) {
+                map.removeLayer(pathPolyline);
+            }
+            
+            if (pathCoordinates && pathCoordinates.length > 1) {
+                // Create a polyline from the path coordinates
+                pathPolyline = L.polyline(pathCoordinates, {
+                    color: '#4CAF50',
+                    weight: 5,
+                    opacity: 0.7,
+                    smoothFactor: 1
+                }).addTo(map);
+                
+                // Fit map to show the entire path
+                map.fitBounds(pathPolyline.getBounds());
+            }
+        }
+        
+        // Handle form submission
+        document.getElementById('navigation-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            var start = document.getElementById('start').value;
+            var goal = document.getElementById('goal').value;
+            var algorithm = document.getElementById('algorithm').value;
+            
+            // Show loading state
+            document.getElementById('result').style.display = 'block';
+            document.getElementById('path-list').innerHTML = '<li>Calculating path...</li>';
+            document.getElementById('cost').textContent = '';
+            document.getElementById('error').textContent = '';
+            
+            // Send request to backend
+            fetch('/find_path', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    start: start,
+                    goal: goal,
+                    algorithm: algorithm
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Response data:', data);
+                if (data.success) {
+                    // Display path
+                    var pathList = document.getElementById('path-list');
+                    pathList.innerHTML = '';
+                    
+                    data.path.forEach((location, index) => {
+                        var li = document.createElement('li');
+                        li.textContent = `${index + 1}. ${location}`;
+                        pathList.appendChild(li);
+                    });
+                    
+                    // Display cost if available
+                    if (data.cost !== null) {
+                        document.getElementById('cost').textContent = `Total Distance: ${data.cost} meters`;
+                    }
+                    
+                    // Draw path on map
+                    drawPath(data.path_coordinates);
+                    
+                    document.getElementById('error').textContent = '';
+                } else {
+                    document.getElementById('path-list').innerHTML = '';
+                    document.getElementById('cost').textContent = '';
+                    document.getElementById('error').textContent = data.error || 'No path found';
+                    
+                    // Clear path on map
+                    if (pathPolyline) {
+                        map.removeLayer(pathPolyline);
+                        pathPolyline = null;
+                    }
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('path-list').innerHTML = '';
+                document.getElementById('cost').textContent = '';
+                document.getElementById('error').textContent = 'An error occurred while calculating the path';
+            });
+        });
+        
+        // Initialize the map with markers
+        addLocationMarkers();
+    </script>
+</body>
+</html>
