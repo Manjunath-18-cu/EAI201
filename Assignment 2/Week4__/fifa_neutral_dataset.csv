@@ -1,0 +1,242 @@
+team_a,team_b,score_a,score_b,Round,winner,result_numeric,rank_a,rank_b,rank_diff,elo_a,elo_b,elo_diff
+Argentina,France,3,3,Final,Draw,0,1,2,-1,1867.25,1859.78,7.47
+Croatia,Morocco,2,1,Third-place match,Croatia,1,13,14,-1,1691.59,1688.18,3.41
+France,Morocco,2,0,Semi-finals,France,1,2,14,-12,1859.78,1688.18,171.6
+Argentina,Croatia,3,0,Semi-finals,Argentina,1,1,13,-12,1867.25,1691.59,175.66
+Morocco,Portugal,1,0,Quarter-finals,Morocco,1,14,6,8,1688.18,1756.12,-67.94
+England,France,1,2,Quarter-finals,France,-1,4,2,2,1813.81,1859.78,-45.97
+Croatia,Brazil,1,1,Quarter-finals,Draw,0,13,5,8,1691.59,1775.85,-84.26
+Netherlands,Argentina,2,2,Quarter-finals,Draw,0,7,1,6,1747.55,1867.25,-119.7
+Morocco,Spain,0,0,Round of 16,Draw,0,14,3,11,1688.18,1853.27,-165.09
+Portugal,Switzerland,6,1,Round of 16,Portugal,1,6,20,-14,1756.12,1625.16,130.96
+Japan,Croatia,1,1,Round of 16,Draw,0,15,13,2,1652.79,1691.59,-38.8
+Brazil,Korea Republic,4,1,Round of 16,Brazil,1,5,23,-18,1775.85,1585.45,190.4
+France,Poland,3,1,Round of 16,France,1,2,35,-33,1859.78,1510.62,349.16
+England,Senegal,3,0,Round of 16,England,1,4,17,-13,1813.81,1637.25,176.56
+Argentina,Australia,2,1,Round of 16,Argentina,1,1,26,-25,1867.25,1544.15,323.1
+Korea Republic,Portugal,2,1,Group stage,Korea Republic,1,23,6,17,1585.45,1756.12,-170.67
+Serbia,Switzerland,2,3,Group stage,Switzerland,-1,32,20,12,1514.28,1625.16,-110.88
+Canada,Morocco,1,2,Group stage,Morocco,-1,31,14,17,1515.96,1688.18,-172.22
+Croatia,Belgium,0,0,Group stage,Draw,0,13,8,5,1691.59,1740.62,-49.03
+Japan,Spain,2,1,Group stage,Japan,1,15,3,12,1652.79,1853.27,-200.48
+Australia,Denmark,1,0,Group stage,Australia,1,26,21,5,1544.15,1611.49,-67.34
+Poland,Argentina,0,2,Group stage,Argentina,-1,35,1,34,1510.62,1867.25,-356.63
+Ecuador,Senegal,1,2,Group stage,Senegal,-1,24,17,7,1560.13,1637.25,-77.12
+Netherlands,Qatar,2,0,Group stage,Netherlands,1,7,48,-41,1747.55,1474.6,272.95
+Wales,England,0,3,Group stage,England,-1,29,4,25,1534.39,1813.81,-279.42
+Brazil,Switzerland,1,0,Group stage,Brazil,1,5,20,-15,1775.85,1625.16,150.69
+Portugal,Uruguay,2,0,Group stage,Portugal,1,6,11,-5,1756.12,1695.91,60.21
+Belgium,Morocco,0,2,Group stage,Morocco,-1,8,14,-6,1740.62,1688.18,52.44
+Croatia,Canada,4,1,Group stage,Croatia,1,13,31,-18,1691.59,1515.96,175.63
+Spain,Germany,1,1,Group stage,Draw,0,3,10,-7,1853.27,1703.79,149.48
+France,Denmark,2,1,Group stage,France,1,2,21,-19,1859.78,1611.49,248.29
+Argentina,Mexico,2,0,Group stage,Argentina,1,1,19,-18,1867.25,1627.4,239.85
+Wales,IR Iran,0,2,Group stage,IR Iran,-1,29,18,11,1534.39,1635.31,-100.92
+Qatar,Senegal,1,3,Group stage,Senegal,-1,48,17,31,1474.6,1637.25,-162.65
+Netherlands,Ecuador,1,1,Group stage,Draw,0,7,24,-17,1747.55,1560.13,187.42
+Uruguay,Korea Republic,0,0,Group stage,Draw,0,11,23,-12,1695.91,1585.45,110.46
+Brazil,Serbia,2,0,Group stage,Brazil,1,5,32,-27,1775.85,1514.28,261.57
+Morocco,Croatia,0,0,Group stage,Draw,0,14,13,1,1688.18,1691.59,-3.41
+Germany,Japan,1,2,Group stage,Japan,-1,10,15,-5,1703.79,1652.79,51
+Belgium,Canada,1,0,Group stage,Belgium,1,8,31,-23,1740.62,1515.96,224.66
+Mexico,Poland,0,0,Group stage,Draw,0,19,35,-16,1627.4,1510.62,116.78
+France,Australia,4,1,Group stage,France,1,2,26,-24,1859.78,1544.15,315.63
+England,IR Iran,6,2,Group stage,England,1,4,18,-14,1813.81,1635.31,178.5
+Senegal,Netherlands,0,2,Group stage,Netherlands,-1,17,7,10,1637.25,1747.55,-110.3
+Qatar,Ecuador,0,2,Group stage,Ecuador,-1,48,24,24,1474.6,1560.13,-85.53
+France,Croatia,4,2,Final,France,1,2,13,-11,1859.78,1691.59,168.19
+Belgium,England,2,0,Third-place match,Belgium,1,8,4,4,1740.62,1813.81,-73.19
+Croatia,England,2,1,Semi-finals,Croatia,1,13,4,9,1691.59,1813.81,-122.22
+France,Belgium,1,0,Semi-finals,France,1,2,8,-6,1859.78,1740.62,119.16
+Sweden,England,0,2,Quarter-finals,England,-1,27,4,23,1540.2,1813.81,-273.61
+Russia,Croatia,2,2,Quarter-finals,Draw,0,34,13,21,1512.32,1691.59,-179.27
+Uruguay,France,0,2,Quarter-finals,France,-1,11,2,9,1695.91,1859.78,-163.87
+Brazil,Belgium,1,2,Quarter-finals,Belgium,-1,5,8,-3,1775.85,1740.62,35.23
+Sweden,Switzerland,1,0,Round of 16,Sweden,1,27,20,7,1540.2,1625.16,-84.96
+Colombia,England,1,1,Round of 16,Draw,0,12,4,8,1694.44,1813.81,-119.37
+Brazil,Mexico,2,0,Round of 16,Brazil,1,5,19,-14,1775.85,1627.4,148.45
+Belgium,Japan,3,2,Round of 16,Belgium,1,8,15,-7,1740.62,1652.79,87.83
+Spain,Russia,1,1,Round of 16,Draw,0,3,34,-31,1853.27,1512.32,340.95
+Croatia,Denmark,1,1,Round of 16,Draw,0,13,21,-8,1691.59,1611.49,80.1
+France,Argentina,4,3,Round of 16,France,1,2,1,1,1859.78,1867.25,-7.47
+Uruguay,Portugal,2,1,Round of 16,Uruguay,1,11,6,5,1695.91,1756.12,-60.21
+Japan,Poland,0,1,Group stage,Poland,-1,15,35,-20,1652.79,1510.62,142.17
+Senegal,Colombia,0,1,Group stage,Colombia,-1,17,12,5,1637.25,1694.44,-57.19
+England,Belgium,0,1,Group stage,Belgium,-1,4,8,-4,1813.81,1740.62,73.19
+Korea Republic,Germany,2,0,Group stage,Korea Republic,1,23,10,13,1585.45,1703.79,-118.34
+Mexico,Sweden,0,3,Group stage,Sweden,-1,19,27,-8,1627.4,1540.2,87.2
+Serbia,Brazil,0,2,Group stage,Brazil,-1,32,5,27,1514.28,1775.85,-261.57
+Australia,Peru,0,2,Group stage,Peru,-1,26,40,-14,1544.15,1488.42,55.73
+Denmark,France,0,0,Group stage,Draw,0,21,2,19,1611.49,1859.78,-248.29
+Nigeria,Argentina,1,2,Group stage,Argentina,-1,44,1,43,1482.23,1867.25,-385.02
+Uruguay,Russia,3,0,Group stage,Uruguay,1,11,34,-23,1695.91,1512.32,183.59
+Spain,Morocco,2,2,Group stage,Draw,0,3,14,-11,1853.27,1688.18,165.09
+IR Iran,Portugal,1,1,Group stage,Draw,0,18,6,12,1635.31,1756.12,-120.81
+England,Panama,6,1,Group stage,England,1,4,36,-32,1813.81,1504.39,309.42
+Japan,Senegal,2,2,Group stage,Draw,0,15,17,-2,1652.79,1637.25,15.54
+Poland,Colombia,0,3,Group stage,Colombia,-1,35,12,23,1510.62,1694.44,-183.82
+Korea Republic,Mexico,1,2,Group stage,Mexico,-1,23,19,4,1585.45,1627.4,-41.95
+Germany,Sweden,2,1,Group stage,Germany,1,10,27,-17,1703.79,1540.2,163.59
+Serbia,Switzerland,1,2,Group stage,Switzerland,-1,32,20,12,1514.28,1625.16,-110.88
+Denmark,Australia,1,1,Group stage,Draw,0,21,26,-5,1611.49,1544.15,67.34
+France,Peru,1,0,Group stage,France,1,2,40,-38,1859.78,1488.42,371.36
+Argentina,Croatia,0,3,Group stage,Croatia,-1,1,13,-12,1867.25,1691.59,175.66
+Portugal,Morocco,1,0,Group stage,Portugal,1,6,14,-8,1756.12,1688.18,67.94
+IR Iran,Spain,0,1,Group stage,Spain,-1,18,3,15,1635.31,1853.27,-217.96
+Colombia,Japan,1,2,Group stage,Japan,-1,12,15,-3,1694.44,1652.79,41.65
+Poland,Senegal,1,2,Group stage,Senegal,-1,35,17,18,1510.62,1637.25,-126.63
+Russia,Egypt,3,1,Group stage,Russia,1,34,33,1,1512.32,1513.48,-1.16
+Sweden,Korea Republic,1,0,Group stage,Sweden,1,27,23,4,1540.2,1585.45,-45.25
+Belgium,Panama,3,0,Group stage,Belgium,1,8,36,-28,1740.62,1504.39,236.23
+Germany,Mexico,0,1,Group stage,Mexico,-1,10,19,-9,1703.79,1627.4,76.39
+Brazil,Switzerland,1,1,Group stage,Draw,0,5,20,-15,1775.85,1625.16,150.69
+France,Australia,2,1,Group stage,France,1,2,26,-24,1859.78,1544.15,315.63
+Peru,Denmark,0,1,Group stage,Denmark,-1,40,21,19,1488.42,1611.49,-123.07
+Croatia,Nigeria,2,0,Group stage,Croatia,1,13,44,-31,1691.59,1482.23,209.36
+Egypt,Uruguay,0,1,Group stage,Uruguay,-1,33,11,22,1513.48,1695.91,-182.43
+Morocco,IR Iran,0,1,Group stage,IR Iran,-1,14,18,-4,1688.18,1635.31,52.87
+Portugal,Spain,3,3,Group stage,Draw,0,6,3,3,1756.12,1853.27,-97.15
+Germany,Argentina,1,0,Final,Germany,1,10,1,9,1703.79,1867.25,-163.46
+Brazil,Netherlands,0,3,Third-place match,Netherlands,-1,5,7,-2,1775.85,1747.55,28.3
+Netherlands,Argentina,0,0,Semi-finals,Draw,0,7,1,6,1747.55,1867.25,-119.7
+Brazil,Germany,1,7,Semi-finals,Germany,-1,5,10,-5,1775.85,1703.79,72.06
+Argentina,Belgium,1,0,Quarter-finals,Argentina,1,1,8,-7,1867.25,1740.62,126.63
+France,Germany,0,1,Quarter-finals,Germany,-1,2,10,-8,1859.78,1703.79,155.99
+Brazil,Colombia,2,1,Quarter-finals,Brazil,1,5,12,-7,1775.85,1694.44,81.41
+Argentina,Switzerland,1,0,Round of 16,Argentina,1,1,20,-19,1867.25,1625.16,242.09
+France,Nigeria,2,0,Round of 16,France,1,2,44,-42,1859.78,1482.23,377.55
+Germany,Algeria,2,1,Round of 16,Germany,1,10,37,-27,1703.79,1495.85,207.94
+Netherlands,Mexico,2,1,Round of 16,Netherlands,1,7,19,-12,1747.55,1627.4,120.15
+Colombia,Uruguay,2,0,Round of 16,Colombia,1,12,11,1,1694.44,1695.91,-1.47
+Korea Republic,Belgium,0,1,Group stage,Belgium,-1,23,8,15,1585.45,1740.62,-155.17
+Algeria,Russia,1,1,Group stage,Draw,0,37,34,3,1495.85,1512.32,-16.47
+Nigeria,Argentina,2,3,Group stage,Argentina,-1,44,1,43,1482.23,1867.25,-385.02
+Ecuador,France,0,0,Group stage,Draw,0,24,2,22,1560.13,1859.78,-299.65
+Italy,Uruguay,0,1,Group stage,Uruguay,-1,9,11,-2,1731.51,1695.91,35.6
+Japan,Colombia,1,4,Group stage,Colombia,-1,15,12,3,1652.79,1694.44,-41.65
+Greece,Côte d'Ivoire,2,1,Group stage,Greece,1,39,46,-7,1489.88,1478.47,11.41
+Australia,Spain,0,3,Group stage,Spain,-1,26,3,23,1544.15,1853.27,-309.12
+Croatia,Mexico,1,3,Group stage,Mexico,-1,13,19,-6,1691.59,1627.4,64.19
+Belgium,Russia,1,0,Group stage,Belgium,1,8,34,-26,1740.62,1512.32,228.3
+Korea Republic,Algeria,2,4,Group stage,Algeria,-1,23,37,-14,1585.45,1495.85,89.6
+Argentina,IR Iran,1,0,Group stage,Argentina,1,1,18,-17,1867.25,1635.31,231.94
+Switzerland,France,2,5,Group stage,France,-1,20,2,18,1625.16,1859.78,-234.62
+Colombia,Côte d'Ivoire,2,1,Group stage,Colombia,1,12,46,-34,1694.44,1478.47,215.97
+Uruguay,England,2,1,Group stage,Uruguay,1,11,4,7,1695.91,1813.81,-117.9
+Japan,Greece,0,0,Group stage,Draw,0,15,39,-24,1652.79,1489.88,162.91
+Australia,Netherlands,2,3,Group stage,Netherlands,-1,26,7,19,1544.15,1747.55,-203.4
+Belgium,Algeria,2,1,Group stage,Belgium,1,8,37,-29,1740.62,1495.85,244.77
+Brazil,Mexico,0,0,Group stage,Draw,0,5,19,-14,1775.85,1627.4,148.45
+Russia,Korea Republic,1,1,Group stage,Draw,0,34,23,11,1512.32,1585.45,-73.13
+Germany,Portugal,4,0,Group stage,Germany,1,10,6,4,1703.79,1756.12,-52.33
+IR Iran,Nigeria,0,0,Group stage,Draw,0,18,44,-26,1635.31,1482.23,153.08
+Switzerland,Ecuador,2,1,Group stage,Switzerland,1,20,24,-4,1625.16,1560.13,65.03
+Colombia,Greece,3,0,Group stage,Colombia,1,12,39,-27,1694.44,1489.88,204.56
+England,Italy,1,2,Group stage,Italy,-1,4,9,-5,1813.81,1731.51,82.3
+Côte d'Ivoire,Japan,2,1,Group stage,Côte d'Ivoire,1,46,15,31,1478.47,1652.79,-174.32
+Spain,Netherlands,1,5,Group stage,Netherlands,-1,3,7,-4,1853.27,1747.55,105.72
+Brazil,Croatia,3,1,Group stage,Brazil,1,5,13,-8,1775.85,1691.59,84.26
+Netherlands,Spain,0,1,Final,Spain,-1,7,3,4,1747.55,1853.27,-105.72
+Uruguay,Germany,2,3,Third-place match,Germany,-1,11,10,1,1695.91,1703.79,-7.88
+Germany,Spain,0,1,Semi-finals,Spain,-1,10,3,7,1703.79,1853.27,-149.48
+Uruguay,Netherlands,2,3,Semi-finals,Netherlands,-1,11,7,4,1695.91,1747.55,-51.64
+Argentina,Germany,0,4,Quarter-finals,Germany,-1,1,10,-9,1867.25,1703.79,163.46
+Netherlands,Brazil,2,1,Quarter-finals,Netherlands,1,7,5,2,1747.55,1775.85,-28.3
+Spain,Portugal,1,0,Round of 16,Spain,1,3,6,-3,1853.27,1756.12,97.15
+Netherlands,Slovakia,2,1,Round of 16,Netherlands,1,7,41,-34,1747.55,1486.19,261.36
+Germany,England,4,1,Round of 16,Germany,1,10,4,6,1703.79,1813.81,-110.02
+Argentina,Mexico,3,1,Round of 16,Argentina,1,1,19,-18,1867.25,1627.4,239.85
+Uruguay,Korea Republic,2,1,Round of 16,Uruguay,1,11,23,-12,1695.91,1585.45,110.46
+Portugal,Brazil,0,0,Group stage,Draw,0,6,5,1,1756.12,1775.85,-19.73
+Slovakia,Italy,3,2,Group stage,Slovakia,1,41,9,32,1486.19,1731.51,-245.32
+Denmark,Japan,1,3,Group stage,Japan,-1,21,15,6,1611.49,1652.79,-41.3
+Australia,Serbia,2,1,Group stage,Australia,1,26,32,-6,1544.15,1514.28,29.87
+Mexico,Uruguay,0,1,Group stage,Uruguay,-1,19,11,8,1627.4,1695.91,-68.51
+Nigeria,Korea Republic,2,2,Group stage,Draw,0,44,23,21,1482.23,1585.45,-103.22
+Greece,Argentina,0,2,Group stage,Argentina,-1,39,1,38,1489.88,1867.25,-377.37
+Brazil,Côte d'Ivoire,3,1,Group stage,Brazil,1,5,46,-41,1775.85,1478.47,297.38
+Netherlands,Japan,1,0,Group stage,Netherlands,1,7,15,-8,1747.55,1652.79,94.76
+Germany,Serbia,0,1,Group stage,Serbia,-1,10,32,-22,1703.79,1514.28,189.51
+England,Algeria,0,0,Group stage,Draw,0,4,37,-33,1813.81,1495.85,317.96
+Argentina,Korea Republic,4,1,Group stage,Argentina,1,1,23,-22,1867.25,1585.45,281.8
+Greece,Nigeria,2,1,Group stage,Greece,1,39,44,-5,1489.88,1482.23,7.65
+France,Mexico,0,2,Group stage,Mexico,-1,2,19,-17,1859.78,1627.4,232.38
+Spain,Switzerland,0,1,Group stage,Switzerland,-1,3,20,-17,1853.27,1625.16,228.11
+Côte d'Ivoire,Portugal,0,0,Group stage,Draw,0,46,6,40,1478.47,1756.12,-277.65
+Netherlands,Denmark,2,0,Group stage,Netherlands,1,7,21,-14,1747.55,1611.49,136.06
+Germany,Australia,4,0,Group stage,Germany,1,10,26,-16,1703.79,1544.15,159.64
+Korea Republic,Greece,2,0,Group stage,Korea Republic,1,23,39,-16,1585.45,1489.88,95.57
+Argentina,Nigeria,1,0,Group stage,Argentina,1,1,44,-43,1867.25,1482.23,385.02
+Uruguay,France,0,0,Group stage,Draw,0,11,2,9,1695.91,1859.78,-163.87
+Italy,France,1,1,Final,Draw,0,9,2,7,1731.51,1859.78,-128.27
+Germany,Portugal,3,1,Third-place match,Germany,1,10,6,4,1703.79,1756.12,-52.33
+Portugal,France,0,1,Semi-finals,France,-1,6,2,4,1756.12,1859.78,-103.66
+Germany,Italy,0,2,Semi-finals,Italy,-1,10,9,1,1703.79,1731.51,-27.72
+England,Portugal,0,0,Quarter-finals,Draw,0,4,6,-2,1813.81,1756.12,57.69
+Brazil,France,0,1,Quarter-finals,France,-1,5,2,3,1775.85,1859.78,-83.93
+Germany,Argentina,1,1,Quarter-finals,Draw,0,10,1,9,1703.79,1867.25,-163.46
+Italy,Ukraine,3,0,Quarter-finals,Italy,1,9,25,-16,1731.51,1554.94,176.57
+Spain,France,1,3,Round of 16,France,-1,3,2,1,1853.27,1859.78,-6.51
+Italy,Australia,1,0,Round of 16,Italy,1,9,26,-17,1731.51,1544.15,187.36
+Switzerland,Ukraine,0,0,Round of 16,Draw,0,20,25,-5,1625.16,1554.94,70.22
+England,Ecuador,1,0,Round of 16,England,1,4,24,-20,1813.81,1560.13,253.68
+Portugal,Netherlands,1,0,Round of 16,Portugal,1,6,7,-1,1756.12,1747.55,8.57
+Germany,Sweden,2,0,Round of 16,Germany,1,10,27,-17,1703.79,1540.2,163.59
+Argentina,Mexico,2,1,Round of 16,Argentina,1,1,19,-18,1867.25,1627.4,239.85
+Switzerland,Korea Republic,2,0,Group stage,Switzerland,1,20,23,-3,1625.16,1585.45,39.71
+Japan,Brazil,1,4,Group stage,Brazil,-1,15,5,10,1652.79,1775.85,-123.06
+Croatia,Australia,2,2,Group stage,Draw,0,13,26,-13,1691.59,1544.15,147.44
+Portugal,Mexico,2,1,Group stage,Portugal,1,6,19,-13,1756.12,1627.4,128.72
+Netherlands,Argentina,0,0,Group stage,Draw,0,7,1,6,1747.55,1867.25,-119.7
+Ecuador,Germany,0,3,Group stage,Germany,-1,24,10,14,1560.13,1703.79,-143.66
+Sweden,England,2,2,Group stage,Draw,0,27,4,23,1540.2,1813.81,-273.61
+Japan,Croatia,0,0,Group stage,Draw,0,15,13,2,1652.79,1691.59,-38.8
+Brazil,Australia,2,0,Group stage,Brazil,1,5,26,-21,1775.85,1544.15,231.7
+France,Korea Republic,1,1,Group stage,Draw,0,2,23,-21,1859.78,1585.45,274.33
+Portugal,IR Iran,2,0,Group stage,Portugal,1,6,18,-12,1756.12,1635.31,120.81
+Netherlands,Côte d'Ivoire,2,1,Group stage,Netherlands,1,7,46,-39,1747.55,1478.47,269.08
+Spain,Ukraine,4,0,Group stage,Spain,1,3,25,-22,1853.27,1554.94,298.33
+Germany,Poland,1,0,Group stage,Germany,1,10,35,-25,1703.79,1510.62,193.17
+France,Switzerland,0,0,Group stage,Draw,0,2,20,-18,1859.78,1625.16,234.62
+Brazil,Croatia,1,0,Group stage,Brazil,1,5,13,-8,1775.85,1691.59,84.26
+Australia,Japan,3,1,Group stage,Australia,1,26,15,11,1544.15,1652.79,-108.64
+Mexico,IR Iran,3,1,Group stage,Mexico,1,19,18,1,1627.4,1635.31,-7.91
+Argentina,Côte d'Ivoire,2,1,Group stage,Argentina,1,1,46,-45,1867.25,1478.47,388.78
+Poland,Ecuador,0,2,Group stage,Ecuador,-1,35,24,11,1510.62,1560.13,-49.51
+Germany,Brazil,0,2,Final,Brazil,-1,10,5,5,1703.79,1775.85,-72.06
+Korea Republic,Türkiye,2,3,Third-place match,Türkiye,-1,23,28,-5,1585.45,1537.24,48.21
+Brazil,Türkiye,1,0,Semi-finals,Brazil,1,5,28,-23,1775.85,1537.24,238.61
+Germany,Korea Republic,1,0,Semi-finals,Germany,1,10,23,-13,1703.79,1585.45,118.34
+Spain,Korea Republic,0,0,Quarter-finals,Draw,0,3,23,-20,1853.27,1585.45,267.82
+Senegal,Türkiye,0,1,Quarter-finals,Türkiye,-1,17,28,-11,1637.25,1537.24,100.01
+England,Brazil,1,2,Quarter-finals,Brazil,-1,4,5,-1,1813.81,1775.85,37.96
+Japan,Türkiye,0,1,Round of 16,Türkiye,-1,15,28,-13,1652.79,1537.24,115.55
+Korea Republic,Italy,2,1,Round of 16,Korea Republic,1,23,9,14,1585.45,1731.51,-146.06
+Brazil,Belgium,2,0,Round of 16,Brazil,1,5,8,-3,1775.85,1740.62,35.23
+Sweden,Senegal,1,2,Round of 16,Senegal,-1,27,17,10,1540.2,1637.25,-97.05
+Denmark,England,0,3,Round of 16,England,-1,21,4,17,1611.49,1813.81,-202.32
+Belgium,Russia,3,2,Group stage,Belgium,1,8,34,-26,1740.62,1512.32,228.3
+Portugal,Korea Republic,0,1,Group stage,Korea Republic,-1,6,23,-17,1756.12,1585.45,170.67
+Mexico,Italy,1,1,Group stage,Draw,0,19,9,10,1627.4,1731.51,-104.11
+Ecuador,Croatia,1,0,Group stage,Ecuador,1,24,13,11,1560.13,1691.59,-131.46
+Sweden,Argentina,1,1,Group stage,Draw,0,27,1,26,1540.2,1867.25,-327.05
+Nigeria,England,0,0,Group stage,Draw,0,44,4,40,1482.23,1813.81,-331.58
+Denmark,France,2,0,Group stage,Denmark,1,21,2,19,1611.49,1859.78,-248.29
+Senegal,Uruguay,3,3,Group stage,Draw,0,17,11,6,1637.25,1695.91,-58.66
+Portugal,Poland,4,0,Group stage,Portugal,1,6,35,-29,1756.12,1510.62,245.5
+Mexico,Ecuador,2,1,Group stage,Mexico,1,19,24,-5,1627.4,1560.13,67.27
+Japan,Russia,1,0,Group stage,Japan,1,15,34,-19,1652.79,1512.32,140.47
+Italy,Croatia,1,2,Group stage,Croatia,-1,9,13,-4,1731.51,1691.59,39.92
+Sweden,Nigeria,2,1,Group stage,Sweden,1,27,44,-17,1540.2,1482.23,57.97
+Argentina,England,0,1,Group stage,England,-1,1,4,-3,1867.25,1813.81,53.44
+Denmark,Senegal,1,1,Group stage,Draw,0,21,17,4,1611.49,1637.25,-25.76
+France,Uruguay,0,0,Group stage,Draw,0,2,11,-9,1859.78,1695.91,163.87
+Japan,Belgium,2,2,Group stage,Draw,0,15,8,7,1652.79,1740.62,-87.83
+Korea Republic,Poland,2,0,Group stage,Korea Republic,1,23,35,-12,1585.45,1510.62,74.83
+Croatia,Mexico,0,1,Group stage,Mexico,-1,13,19,-6,1691.59,1627.4,64.19
+Brazil,Türkiye,2,1,Group stage,Brazil,1,5,28,-23,1775.85,1537.24,238.61
+Italy,Ecuador,2,0,Group stage,Italy,1,9,24,-15,1731.51,1560.13,171.38
+Argentina,Nigeria,1,0,Group stage,Argentina,1,1,44,-43,1867.25,1482.23,385.02
+England,Sweden,1,1,Group stage,Draw,0,4,27,-23,1813.81,1540.2,273.61
+Uruguay,Denmark,1,2,Group stage,Denmark,-1,11,21,-10,1695.91,1611.49,84.42
+France,Senegal,0,1,Group stage,Senegal,-1,2,17,-15,1859.78,1637.25,222.53
